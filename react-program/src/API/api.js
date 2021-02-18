@@ -23,15 +23,11 @@ export const userAPI = {
     unfollowSucces(userId) {
         return instance.delete(`follow/${userId}`)
     },
-    getUserProfile (userId) {
-        console.warn("Absolete method. Please use profileAPI obj")
-        return profileAPI.getUserProfile(userId)
-    }
 };
 
 export const profileAPI = {
 
-    getUserProfile (userId) {
+    getProfile (userId) {
         return instance.get(`profile/${userId}`)
     },
 
