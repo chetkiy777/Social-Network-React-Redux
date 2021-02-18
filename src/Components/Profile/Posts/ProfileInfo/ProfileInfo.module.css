@@ -1,0 +1,10 @@
+.descriptionBlock {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.descriptionBlock img {
+    width: 100px;
+    height: 100px;
+}
