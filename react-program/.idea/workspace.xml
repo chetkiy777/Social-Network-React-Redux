@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f459bf-7f67-4508-aa9f-7fcf75638f4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/HeaderContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Login/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/FormsControl/FormsControl.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/FormsControl/FormsControl.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\Social-Network-React-Redux\Social-Network-React-Redux\react-program\src\redux" />
       <recent name="D:\react\01-first\react-program\src\Components\Profile" />
       <recent name="D:\react\01-first\react-program\src\Components\Users" />
       <recent name="D:\react\01-first\react-program\src\Components\Dialogs" />
       <recent name="D:\react\01-first\react-program\src\Components\Profile\Posts\MyPosts" />
-      <recent name="D:\react\01-first\react-program\src\redux" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\react\01-first\react-program\src\Components\Profile" />
@@ -149,6 +150,9 @@
       <workItem from="1613636547766" duration="44000" />
       <workItem from="1613638052083" duration="35432000" />
       <workItem from="1613838970762" duration="12167000" />
+      <workItem from="1613994193630" duration="7610000" />
+      <workItem from="1614007405131" duration="3850000" />
+      <workItem from="1614025334594" duration="6408000" />
     </task>
     <servers />
   </component>

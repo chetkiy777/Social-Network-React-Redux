@@ -23,9 +23,7 @@ const LoginForm = (props) => {
                 <div>
                     <Field component={Input} name={"rememberMe"} type={"checkbox"}/> remember me
                 </div>
-            X
-            {
-                    props.error &&
+                {props.error &&
                     <div className={styles.summaryError}>
                         {props.error}
                     </div>
@@ -43,7 +41,7 @@ const Login = (props) => {
 
     const onSubmit = (formData) => {
         props.login(formData.email , formData.password , formData.rememberMe);
-    };
+    }
 
     if (props.isAuth) {
         return <Redirect to={"/profile"} />
@@ -64,4 +62,4 @@ let mapStateToProps = (state) => ({
 
 
 
-export default connect (mapStateToProps , {login , logout})(Login);
+export default connect (mapStateToProps , {login})(Login);
