@@ -1,14 +1,31 @@
-export const gelAllUsers = (state) => {
+import {createSelector} from "reselect";
+
+const gelAllUsers = (state) => {
     return state.usersPage.users;
 };
 
-export const getPageSize = (state) => {
+export const getUsersSelector = createSelector(gelAllUsers ,
+    (users) => {
+    return users.filter(u => true)
+    })
+
+const getPageSize = (state) => {
     return state.usersPage.pageSize
 };
 
-export const getTotalUsersCount = (state) => {
+export const getPageSizeSelector = createSelector(getPageSize ,
+    (pageSize) => {
+    return pageSize
+    })
+
+const getTotalUsersCountSelector = (state) => {
     return state.usersPage.totalUsersCount
 };
+
+export const getTotalUsersCount = createSelector(getTotalUsersCountSelector ,
+    (totalUsersCount) => {
+    return totalUsersCount
+    } )
 
 export const getCurrentPage = (state) => {
     return state.usersPage.currentPage

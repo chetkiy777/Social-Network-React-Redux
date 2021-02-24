@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f459bf-7f67-4508-aa9f-7fcf75638f4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/Posts/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Posts/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Posts/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Profile/Posts/ProfileInfo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,17 +47,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git\Social-Network-React-Redux\Social-Network-React-Redux\react-program\src\redux" />
-      <recent name="D:\react\01-first\react-program\src\Components\Profile" />
-      <recent name="D:\react\01-first\react-program\src\Components\Users" />
-      <recent name="D:\react\01-first\react-program\src\Components\Dialogs" />
-      <recent name="D:\react\01-first\react-program\src\Components\Profile\Posts\MyPosts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\react\01-first\react-program\src\Components\Profile" />
       <recent name="D:\react\01-first\react-program\src\Components\Nav" />
       <recent name="D:\react\01-first\react-program\src\Components\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\Social-Network-React-Redux\Social-Network-React-Redux\react-program\src\Components\Profile\Posts\ProfileInfo" />
+      <recent name="D:\git\Social-Network-React-Redux\Social-Network-React-Redux\react-program\src\redux" />
+      <recent name="D:\react\01-first\react-program\src\Components\Profile" />
+      <recent name="D:\react\01-first\react-program\src\Components\Users" />
+      <recent name="D:\react\01-first\react-program\src\Components\Dialogs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -146,6 +151,10 @@
       <workItem from="1613994193630" duration="7610000" />
       <workItem from="1614007405131" duration="3850000" />
       <workItem from="1614025334594" duration="7586000" />
+      <workItem from="1614069630715" duration="111000" />
+      <workItem from="1614085114548" duration="3426000" />
+      <workItem from="1614091419165" duration="646000" />
+      <workItem from="1614159386936" duration="6416000" />
     </task>
     <servers />
   </component>
@@ -164,5 +173,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="react-program" type="b2602c69:ProjectViewProjectNode" />
+        <item name="react-program" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>
