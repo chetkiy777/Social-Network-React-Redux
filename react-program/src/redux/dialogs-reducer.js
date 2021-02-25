@@ -1,4 +1,4 @@
-const ADD_MESSAGE = 'ADD-MESSAGE'
+const ADD_MESSAGE = 'Social_Network/ADD-MESSAGE'
 
 let initialState = {
     dialogsData: [
