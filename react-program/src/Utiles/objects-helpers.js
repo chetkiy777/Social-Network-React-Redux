@@ -1,3 +1,4 @@
+import React from 'react';
 
 export const updateObjectInArray = (items, itemId, objPropName, newObjProps) => {
    return items.map(u => {

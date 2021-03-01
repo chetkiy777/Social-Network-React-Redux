@@ -23,14 +23,14 @@ class UserContainer extends React.Component {
         let {currentPage, pageSize } = this.props;
         this.props.getUsers(currentPage , pageSize)
     }
-    onPageChange = (pageNumber) => {
+        onPageChange = (pageNumber) => {
         const {pageSize} = this.props;
         this.props.getUsers(pageNumber, pageSize)
-    }
+    };
     render() {
         return <>
             {this.props.isFetching ? <Preloader />: null}
-            <Users totalUsersCount={this.props.totalUsersCount}
+            <Users totalItemsCount={this.props.totalItemsCount}
                       pageSize={this.props.pageSize}
                       currentPage={this.props.currentPage}
                       onPageChange={this.onPageChange}
@@ -48,13 +48,12 @@ let mapStateToProps = (state) => {
     return {
         users: getUsersSelector(state),
         pageSize: getPageSizeSelector(state),
-        totalUsersCount: getTotalUsersCount(state),
+        totalItemsCount: getTotalUsersCount(state),
         currentPage: getCurrentPage(state),
         isFetching: getSsFetching(state),
         followingInProgress: getFollowingInProgress(state)
-
     }
-}
+};
 
 export default compose(
     connect(mapStateToProps , {follow, unfollow, getUsers, setCurrentPage, toggleFollowingInProgress}),

@@ -1,4 +1,5 @@
 import {getAuthUserData} from "./auth-reducer";
+
 const INITIALIZED_SUCCESS = 'Social_Network/INITIALIZED_SUCCESS';
 
 let initialState = {

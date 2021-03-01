@@ -7,7 +7,7 @@ const gelAllUsers = (state) => {
 export const getUsersSelector = createSelector(gelAllUsers ,
     (users) => {
     return users.filter(u => true)
-    })
+    });
 
 const getPageSize = (state) => {
     return state.usersPage.pageSize
@@ -16,26 +16,37 @@ const getPageSize = (state) => {
 export const getPageSizeSelector = createSelector(getPageSize ,
     (pageSize) => {
     return pageSize
-    })
+    });
 
 const getTotalUsersCountSelector = (state) => {
-    return state.usersPage.totalUsersCount
+    return state.usersPage.totalItemsCount
 };
 
 export const getTotalUsersCount = createSelector(getTotalUsersCountSelector ,
-    (totalUsersCount) => {
-    return totalUsersCount
-    } )
+    (totalItemsCount) => {return totalItemsCount
+});
 
-export const getCurrentPage = (state) => {
+const getCurrentPageSelector = (state) => {
     return state.usersPage.currentPage
 };
 
-export const getSsFetching = (state) => {
+export const getCurrentPage = createSelector(getCurrentPageSelector,
+    (currentPage) => {return currentPage
+});
+
+const getSsFetchingSelector = (state) => {
     return state.usersPage.isFetching
 };
 
-export const getFollowingInProgress = (state) => {
+export const getSsFetching = createSelector(getSsFetchingSelector,
+    (isFetching) => {return isFetching
+});
+
+const getFollowingInProgressSelector = (state) => {
     return state.usersPage.followingInProgress
 };
+
+export const getFollowingInProgress = createSelector(getFollowingInProgressSelector,
+    (followingInProgress) => {return followingInProgress
+});
 
