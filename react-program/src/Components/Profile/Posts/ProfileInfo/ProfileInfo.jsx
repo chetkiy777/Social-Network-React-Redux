@@ -1,31 +1,42 @@
 import React from 'react';
 import classes from './ProfileInfo.module.css';
 import Preloader from "../../../../common/preloader/Preloader";
-import myPhoto from './../../../../assets/img/myPhoto.jpg'
+import userPhoto from './../../../../assets/img/userPhoto.jpg';
 import ProfileStatusWithHook from "./ProfileStatusWithHooks";
 
-const ProfileInfo = (props) => {
 
-    if (!props.profile) {
+
+const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto}) => {
+
+    const onMainPhotoSelected = (e) => {
+        if (e.target.files.length) {
+            savePhoto(e.target.files[0])
+        }
+    };
+
+    if (!profile) {
         return <Preloader/>
     }
+
+
     return (
         <div>
             <div className={classes.descriptionBlock}>
 
-                <img src={props.profile.photos.large != null ? props.profile.photos.large
-                : myPhoto } />
+                <img src={profile.photos.large != null ? profile.photos.large
+                : userPhoto } />
+                {isOwner && <input type={"file"} onChange={onMainPhotoSelected}/>}
 
-                <ProfileStatusWithHook status={props.status}  updateStatus={props.updateStatus} />
+                <ProfileStatusWithHook status={status}  updateStatus={updateStatus} />
 
                 <p>
-                    {"aboutMe: " + props.profile.aboutMe}
+                    {"aboutMe: " + profile.aboutMe}
                 </p>
                 <p>
-                    {"lookingForAJob: " + props.profile.lookingForAJobDescription}
+                    {"lookingForAJob: " + profile.lookingForAJobDescription}
                 </p>
                 <p>
-                    {"fullName: " + props.profile.fullName}
+                    {"fullName: " + profile.fullName}
                 </p>
 
 
