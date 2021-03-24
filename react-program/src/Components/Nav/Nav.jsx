@@ -24,9 +24,13 @@ const Nav = (props) => {
             <div className={classes.item}>
                 <NavLink to="/Users" activeClassName={classes.activeLink}>Users</NavLink>
             </div>
+
+
             <div className={classes.friendsBlock}>
-                Friends{/*<Friends dialogsData={props.store.messagePage.dialogsData} />*/}
+                <Friends />
             </div>
+
+
         </nav>
     )
 }

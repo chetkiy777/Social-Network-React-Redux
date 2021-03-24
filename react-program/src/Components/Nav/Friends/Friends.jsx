@@ -1,20 +1,29 @@
-import React from 'react';
-import classes from './Friends.module.css'
+import React from 'react'
+import classes from './friends.module.css'
+import {connect} from "react-redux";
+
+
 
 const Friends = (props) => {
 
+
     return (
-        <div>
+        <div className={classes.friendsBlock}>
             <h2>Friends</h2>
-            <div className={classes.own}>
-                <div>{props.dialogsData[0].name}</div>
 
-                <div>{props.dialogsData[1].name}</div>
+            {props.friends.map(f => f.followed &&
+                 <div key={f.id} className={classes.friend}>{f.name}</div>
+                )
 
-                <div>{props.dialogsData[2].name}</div>
-            </div>
+            }
         </div>
     )
 }
 
-export default Friends;
+
+
+let mapStateToProps = (state) => ({
+    friends: state.friendsPage.friends
+})
+
+export default connect(mapStateToProps)(Friends);

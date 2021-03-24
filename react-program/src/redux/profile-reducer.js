@@ -5,13 +5,15 @@ const SET_STATUS = 'Social_Network/SET_STATUS';
 const DELETE_POST = 'DELETE_POST';
 const SAVE_PHOTO_SUCCES = 'SAVE_PHOTO_SUCCES';
 
+
 let initialState = {
     posts: [
         {id: 1, message: 'How dou you filling?', likesCount: 21},
         {id: 2, message: 'The Best Day', likesCount: 13}
     ],
     profile: null,
-    status: ""
+    status: "",
+
 };
 
 const profileReducer = (state = initialState, action) => {
@@ -38,6 +40,7 @@ const profileReducer = (state = initialState, action) => {
             return state;
     }
 };
+
 
 export const addPost = (newPostBody) => ({type: ADD_POST , newPostBody});
 export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile});

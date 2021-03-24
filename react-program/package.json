@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
+    "add": "2.0.6",
     "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "final-form": "^4.20.1",
@@ -44,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
