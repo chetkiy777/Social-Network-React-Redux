@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import classes from './ProfileInfo.module.css';
 import Preloader from "../../../../common/preloader/Preloader";
 import userPhoto from './../../../../assets/img/userPhoto.jpg';
 import ProfileStatusWithHook from "./ProfileStatusWithHooks";
+import ProfileDataForm from "./ProfileDataForm";
 
 
 
-const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto}) => {
+const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto, saveProfile}) => {
+    let [editMode, setEditMode] = useState(false);
+
+
 
     const onMainPhotoSelected = (e) => {
         if (e.target.files.length) {
@@ -18,6 +22,12 @@ const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto}) => {
         return <Preloader/>
     }
 
+    const onSubmit = (formData) => {
+        saveProfile(formData);
+        setEditMode(false)
+    }
+
+
     return (
 
         <div>
@@ -28,8 +38,10 @@ const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto}) => {
                 : userPhoto } />
                 {isOwner && <input type={"file"} onChange={onMainPhotoSelected}/>}
 
-                <ProfileData profile={profile}/>
-
+                {editMode
+                    ? <ProfileDataForm initialValues={profile} profile={profile} onSubmit={onSubmit}/>
+                    : <ProfileData  profile={profile} isOwner={isOwner} activeEditMode={() => setEditMode(true)}/>
+                }
 
 
                 <ProfileStatusWithHook status={status}  updateStatus={updateStatus} />
@@ -39,8 +51,9 @@ const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto}) => {
     )
 }
 
-const ProfileData = ({profile}) => {
+const ProfileData = ({profile, isOwner, activeEditMode}) => {
     return <div className={classes.infoAbout}>
+        {isOwner && <div><button onClick={activeEditMode}>EDIT</button></div>}
         <div>
             <b>Full name</b>: {profile.fullName}
         </div>
@@ -66,6 +79,8 @@ const ProfileData = ({profile}) => {
 
     </div>
 }
+
+
 
 const Contact = ({contactTitle, contactValue}) => {
     return <div className={classes.contacts}><b>{contactTitle}</b>: {contactValue} </div>
