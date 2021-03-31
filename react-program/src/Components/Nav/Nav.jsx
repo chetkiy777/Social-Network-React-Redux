@@ -24,10 +24,12 @@ const Nav = (props) => {
             <div className={classes.item}>
                 <NavLink to="/Users" activeClassName={classes.activeLink}>Users</NavLink>
             </div>
-
+            <div className={classes.item}>
+            <NavLink to="/StarWars" activeClassName={classes.activeLink}>StarWars</NavLink>
+            </div>
 
             <div className={classes.friendsBlock}>
-                <Friends />
+                <Friends/>
             </div>
 
 

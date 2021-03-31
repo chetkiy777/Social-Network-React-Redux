@@ -15,6 +15,7 @@ import {compose} from "redux";
 import {initializeApp} from "./redux/app-reducer";
 import Preloader from "./common/preloader/Preloader";
 import Friends from "./Components/Nav/Friends/Friends";
+import StarWars from "./Components/Starwars/StarWars";
 const DialogsContainer = React.lazy(() => import ('./Components/Dialogs/DialogsConteiner'));
 const ProfileContainer = React.lazy(() => import ('./Components/Profile/ProfileContainer'));
 
@@ -46,6 +47,7 @@ class App extends Component {
                     <Route path='/users' render={() => <UserContainer/>}/>
                     <Route path='/login' render={() => <LoginPage/>}/>
                     <Route path='/friends' render={() => <Friends/>}/>
+                    <Route path='/starwars' render={() => <StarWars/>}/>
 
                 </div>
 
