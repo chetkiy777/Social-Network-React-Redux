@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4985bc3b-369e-45df-a623-3b38111baee9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/react-program/src/Components/Users/UserSearchForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-program/src/types/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-program/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/Components/Nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/Components/Nav/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/Components/Starwars/StarWars.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/Components/Users/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/Components/Users/User.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/Components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/Components/Users/Users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/Components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/Components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/assets/preloader/126.svg" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/assets/preloaders/126.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/assets/preloader/preloaderCube/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/assets/preloaders/preloaderCube/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/assets/preloader/preloaderCube/css/preloaderStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/assets/preloaders/preloaderCube/css/preloaderStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/assets/preloader/preloaderCube/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/assets/preloaders/preloaderCube/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/assets/preloader/preloaderCube/preloaderCube.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/assets/preloaders/preloaderCube/preloaderCube.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/common/Pagenator/Pagenator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/common/Pagenator/Pagenator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/common/preloader/Preloader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/common/preloader/Preloader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/redux/app-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/redux/auth-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/redux/dialogs-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/redux/friends-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/redux/friends-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/redux/profile-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/redux/redux-store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/redux/sidebar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/redux/sidebar-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/redux/starwarsReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/redux/users-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/src/redux/users-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/src/redux/users-selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-program/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react-program/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +45,10 @@
   <component name="ProjectId" id="1oxxaGQchGhyYEDK0dKkRM8TpoO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-program" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../newLearn/new-learn" />
+    <property name="ts.external.directory.path" value="D:\git\Social-Network-React-Redux\Social-Network-React-Redux\react-program\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614242104265</updated>
       <workItem from="1614242106185" duration="42000" />
+      <workItem from="1622541449443" duration="976000" />
     </task>
     <servers />
   </component>
@@ -53,7 +85,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
